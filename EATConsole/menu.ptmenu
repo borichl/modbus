@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PtMenu:MenuFolder xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:PtMenu="http://ptmenu/1.0" name="Root" description="Root folder">
+  <children xsi:type="PtMenu:DisplayBoolDataItem" name="DT0" description="" id=""/>
+  <children xsi:type="PtMenu:DisplayBoolDataItem" name="DT1" description="" id="" bit="1" trueAlias="" falseAlias=""/>
+  <children xsi:type="PtMenu:DisplayBoolDataItem" name="DT2" description="" bit="2"/>
+  <children xsi:type="PtMenu:DisplayBoolDataItem" name="BTN" bit="3"/>
+  <children xsi:type="PtMenu:InputBoolDataItem" name="CL0" address="1" id="" falseAlias=""/>
+  <children xsi:type="PtMenu:InputBoolDataItem" name="CL1" address="1" id="" bit="1"/>
+  <children xsi:type="PtMenu:InputBoolDataItem" name="CL2" description="" address="1" id="" bit="2" trueAlias=""/>
+  <children xsi:type="PtMenu:InputBoolDataItem" name="LED" address="1" bit="3"/>
+  <children xsi:type="PtMenu:DisplayIntegerDataItem" name="IN0" description="" address="2"/>
+  <children xsi:type="PtMenu:DisplayIntegerDataItem" name="IN1" address="3"/>
+  <children xsi:type="PtMenu:DisplayIntegerDataItem" name="IN2" address="4" id="" unitOfMeasurement=""/>
+  <children xsi:type="PtMenu:InputIntegerDataItem" name="HLD0" description="" address="5"/>
+  <children xsi:type="PtMenu:InputIntegerDataItem" name="HLD1" address="6" id=""/>
+  <children xsi:type="PtMenu:InputIntegerDataItem" name="HLD2" description="" address="7"/>
+</PtMenu:MenuFolder>
